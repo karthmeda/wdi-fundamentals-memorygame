@@ -5,3 +5,15 @@ var cardTwo="king";
 var cardThree="queen";
 var cardFour="king";
 
+//If-else statements to check for equality of the four cards
+if(cardOne===cardThree||cardTwo===cardFour){
+	alert("Found a match");
+}
+else if(cardOne===cardFour||cardTwo===cardThree||cardOne===cardTwo||cardThree===cardFour){
+	alert("Found a match");
+}
+else{
+	alert("Sorry, try again.")
+}
+
+
